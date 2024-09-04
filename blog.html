@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">My Blog</div>
+            <div class="menu-icon" id="menuIcon">
+                &#9776;
+            </div>
+            <ul id="navList">
+                <li><a href="#" id="gameBtn">Game</a></li>
+                <li><a href="#" id="calculatorBtn">Calculator</a></li>
+                <li><a href="#" id="aboutBtn">About</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="container1">
+        <div class="container">
+            <h1>My Blog</h1>
+            <div class="blog-form">
+                <input type="text" id="title" placeholder="Blog Title">
+                <textarea id="content" placeholder="Write your blog content..."></textarea>
+                <input type="file" id="imageUpload">
+                <button id="addBlogBtn">Add Blog</button>
+            </div>
+            <div id="blogPosts"></div>
+        </div>
+        
+        <!-- A simple button that navigates to index.html -->
+        <button>
+            <a href="./index.html">log out</a>
+        </button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
